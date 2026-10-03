@@ -7,13 +7,13 @@
 # Resources: I used the class D2L notes and W3 schools pyton material for sorting that I was confused about.
 
 # Create a list to store averages and names.
-students = []
+names = []
 
 # Open the input file for reading.
-input_file = open("Assignment2input.txt", "r")
+text = open("Assignment2input.txt", "r")
 
 # Read one student record at a time and separates the names and the scores.
-for line in input_file:
+for line in text:
     fields = line.split()
     total = 0
 
@@ -22,14 +22,14 @@ for line in input_file:
         total = total + float(score)
 
     # Store the average first so sorting uses the grade.
-    students.append([total / 6, fields[0]])
+    names.append([total / 6, fields[0]])
 
 # Closes the file
-input_file.close()
+text.close()
 
 # Put the highest averages first.
-students.sort(reverse=True)
+names.sort(reverse=True)
 
 # Prints names and averages with two decimal places.
-for student in students:
-    print(student[1], format(student[0], ".2f"))
+for sn in names:
+    print(sn[1], format(sn[0], ".2f"))
