@@ -2,7 +2,7 @@
 # Course: IT3883/Section 01
 # Student Name: Riley Dunevent
 # Assignment Number: Assignment 3
-# Due Date: 10/11/2025
+# Due Date: 10/10/2025
 # Purpose: Convert miles per gallon to kilometers per liter.
 # Resources: I used the class D2L notes and examples from D2L. I also used W3 schools pyton material to help with this assignment.
 

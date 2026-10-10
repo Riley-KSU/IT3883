@@ -4,7 +4,7 @@
 ### Course: IT3883/Section 01
 ### Student Name: Riley Dunevent
 ### Assignment Number: Assignment Number 3
-### Due Date: 09/21/ 2026
+### Due Date: 10/10/ 2026
 ### Purpose: What does the program do?:
 ### Convert miles per gallon to kilometers per liter.
 
