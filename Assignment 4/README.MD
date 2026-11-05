@@ -10,5 +10,7 @@
 ### List Specific resources used to complete the assignment.: 
 ## Class notes and example Client.py and Server.py from d2l and w3 schools.
 
+## Note
+### Run program B before Program A
 ## Screenshot
 ![HW4.png](HW4.png)
